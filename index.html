@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="sidebar">
+
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;"><i class="fa-solid fa-house"></i> <a href="#">Home</a></div>
+                <div class="nav-option"><i class="fa-solid fa-magnifying-glass"></i> <a href="#">Search</a></div>
+            </div>
+
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option">
+                        <img src="./assets/library_icon.png" alt="Icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <a href="#"><i class="fa-solid fa-plus"></i></a>
+                        <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box one">
+                        <div class="box-p1">Create your first playlist</div>
+                        <div class="box-p2">It's easy, we'll help you</div>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box two">
+                        <div class="box-p1">Let's find some podcasts to follow</div>
+                        <div class="box-p2">We'll keep you updated on new episodes</div>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main-content">
+
+            <div class="sticky-nav">
+                <div class="row1">
+                    <div class="image">
+                        <div class="image1">
+                            <a href="#"><img src="./assets/backward_icon.png" alt="Icon"></a>
+                        </div>
+                        <div class="image2 hide">
+                            <a href="#"><img src="./assets/forward_icon.png" alt="Icon"></a>
+                        </div>
+                    </div>
+                    <div class="badges">
+                        <button class="badge hide">Explore Premium</button>
+                        <button class="badge badge-black"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                        <button class="badge badge-black badge-circle"><i class="fa-regular fa-bell"></i></button>
+                        <button class="badge badge-black badge-circle"><i class="fa-regular fa-user"></i></button>
+                    </div>
+                </div>
+                <div class="row2">
+                    <button class="badge">All</button>
+                    <button class="badge badge-grey">Music</button>
+                    <button class="badge badge-grey">Podcasts</button>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Recently played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg" alt="Card">
+                        <!-- <button><i class="fa-solid fa-play"></i></button> -->
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily update of the most played tracks right now.</p>
+                    </div>
+                </div>
+                <h2>Trending now near you</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg" alt="Card">
+                        <!-- <button><i class="fa-solid fa-play"></i></button> -->
+                        <p class="card-title">Mahiye Jinna Sohna</p>
+                        <p class="card-info">2023 . Darshan Raval</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg" alt="Card">
+                        <!-- <button><i class="fa-solid fa-play"></i></button> -->
+                        <p class="card-title">Classic 60s</p>
+                        <p class="card-info">Tracks to complement your tea time.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg" alt="Card">
+                        <!-- <button><i class="fa-solid fa-play"></i></button> -->
+                        <p class="card-title">The South Fever</p>
+                        <p class="card-info">Dive into the madness of South hits.</p>
+                    </div>
+                </div>
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg" alt="Card">
+                        <!-- <button><i class="fa-solid fa-play"></i></button> -->
+                        <p class="card-title">Top Songs - Global</p>
+                        <p class="card-info">Your weekly update of the most played tracks right now.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg" alt="Card">
+                        <!-- <button><i class="fa-solid fa-play"></i></button> -->
+                        <p class="card-title">Top Songs - India</p>
+                        <p class="card-info">Your weekly update of the most played tracks of India right now.</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="content-footer">
+                    <div class="list">
+                        <ul>
+                            <li>Company</li>
+                            <li>About</li>
+                            <li>Jobs</li>
+                            <li>For the Record</li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>Communitites</li>
+                            <li>For Artists</li>
+                            <li>Developers</li>
+                            <li>Advertising</li>
+                            <li>Investors</li>
+                            <li>Vendors</li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>Useful links</li>
+                            <li>Support</li>
+                            <li>Free Mobile App</li>
+                        </ul>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li>Spotify Plans</li>
+                            <li>Premium Individual</li>
+                            <li>Premium Duo</li>
+                            <li>Premium Family</li>
+                            <li>Premium Student</li>
+                            <li>Spotify Free</li>
+                        </ul>
+                    </div>
+                    <div class="social-media">
+                        <a class="badge badge-grey"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="badge badge-grey"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="badge badge-grey"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="last-footer">
+                    <ul>
+                        <li>Legal</li>
+                        <li>Safety & Privacy Center</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookies</li>
+                        <li>About Ads</li>
+                        <li>Accessibility</li>
+                    </ul>
+                    <p><i class="fa-regular fa-copyright"></i> 2024 Spotify AB</p>
+                </div>
+            </footer>
+
+        </div>
+
+        <div class="music-player">
+
+            <div class="album">
+                <img src="./assets/album_picture.jpeg" alt="Album" class="album-picture">
+                    <ul class="song-details">
+                        <li class="name-of-album">Hips Don't Lie</li>
+                        <li class="singers">Shakira</li>
+                    </ul>
+                    <img src="./assets/album_icon1.png" alt="Icon" class="like-icon">
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" alt="Controls" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" alt="Controls" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" alt="Controls" class="player-control-icon">
+                    <img src="./assets/player_icon4.png" alt="Controls" class="player-control-icon">
+                    <img src="./assets/player_icon5.png" alt="Controls" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="cur-time">0:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time">4:31</span>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <img src="./assets/controls_icon1.png" alt="Icon" class="icon1" controls-child>
+                <img src="./assets/controld_icon2.png" alt="Icon" class="icon2" controls-child>
+                <img src="./assets/controls_icon3.png" alt="Icon" class="icon3" controls-child>
+                <img src="./assets/controls_icon4.png" alt="Icon" class="icon4" controls-child>
+                <img src="./assets/controls_icon5.png" alt="Icon" class="icon5" controls-child>
+                <input type="range" min="0" max="100" step="1" class="volume-bar controls-child">
+                <img src="./assets/album_icon2.png" alt="Icon" class="icon6 controls-child">
+                <i class="fa-solid fa-up-right-and-down-left-from-center icon7 controls-child"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
